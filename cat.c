@@ -2,7 +2,7 @@
 
 int main(){
     FILE* text=fopen("t.txt","r");
-    if(text){
+    if(text != NULL){
         char ch;
         while ((ch=fgetc(text)) != EOF )
         {
